@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+	<head>
 		<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
 		<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.4.9/aframe/build/aframe-ar.js"></script>
 	</head>
@@ -9,12 +9,12 @@
 			 arjs="detectionMode: mono_and_matrix; 
 			       matrixCodeType: 3x3;"
 			 vr-mode-ui="enabled: false">
-	    <a-marker type="barcode" value="5">    
-	  	    <a-box position="0 0 0" material="color: yellow;">
-	  	    </a-box>
-        </a-marker>
-	      <a-camera>
-	      </a-camera>
-        </a-scene>	   
-    </body>
+		<a-marker type="barcode" value="5">
+			<a-box position="0 0 0" material="color: red;">
+			</a-box>
+		</a-marker>
+			<a-camera>
+			</a-camera>
+		</a-scene>
+	</body>
 </html>
